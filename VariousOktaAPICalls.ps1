@@ -1,9 +1,5 @@
 
 
-#Replace YourOktaTenantURL with your entire Okta URL, and YourApiToken with the API Token you've generated.
-#user-list.csv can be replaced by the CSV file of your choice.  The script requires that the CSV file has a "login" column that contains the username of each user that is to be deleted.  Additional columns can exist in the CSV file and will be ignored by the script.
-
-
 
 #param([string]$orgurl , [string]$apikey, [string]$filepath)
 
